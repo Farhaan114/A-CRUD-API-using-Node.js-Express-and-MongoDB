@@ -31,7 +31,7 @@ db.mongoose
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "I'm codefromfar, welcome to my app." });
+  res.json({ message: "I'm codefromfar aka Farhaan114, welcome to my app." });
 });
 
 require("./app/routes/turorial.routes")(app);
